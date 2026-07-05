@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="348.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.crud_electrodomesticos.LoginController">
+    <children>
+        <Label layoutX="172.0" layoutY="31.0" text="SISTEMA DE GESTION DE ELECTRODOMESTICOS" />
+        <Label layoutX="275.0" layoutY="78.0" text="USUARIO" />
+        <TextField fx:id="txtusuario" layoutX="226.0" layoutY="122.0" />
+        <Label layoutX="263.0" layoutY="165.0" text="CONTRASEÑA" />
+        <PasswordField fx:id="psclave" layoutX="226.0" layoutY="210.0" />
+        <Button fx:id="btningresar" layoutX="275.0" layoutY="269.0" mnemonicParsing="false" onAction="#btningresar" text="INGRESAR" />
+    </children>
+</AnchorPane>
